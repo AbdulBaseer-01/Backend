@@ -50,7 +50,7 @@ app.get('/twitter', (req, res) => {
 
 app.get('/github', (req, res) => {
     res.json(obj)
-})
+});
 
 app.listen(PORT, () => {
     console.log(`Example app listening on port ${PORT}`);
